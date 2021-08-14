@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Brice Black SemiCondensed';
+    src: url('Brice-BlackSemiCondensed.woff2') format('woff2'),
+        url('Brice-BlackSemiCondensed.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Black Condensed';
+    src: url('Brice-BlackCondensed.woff2') format('woff2'),
+        url('Brice-BlackCondensed.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Black Expanded';
+    src: url('Brice-BlackExpanded.woff2') format('woff2'),
+        url('Brice-BlackExpanded.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Black SemiExpanded';
+    src: url('Brice-BlackSemiExpanded.woff2') format('woff2'),
+        url('Brice-BlackSemiExpanded.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice';
+    src: url('Brice-Black.woff2') format('woff2'),
+        url('Brice-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice SemiCondensed';
+    src: url('Brice-BoldSemiCondensed.woff2') format('woff2'),
+        url('Brice-BoldSemiCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Condensed';
+    src: url('Brice-BoldCondensed.woff2') format('woff2'),
+        url('Brice-BoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice SemiExpanded';
+    src: url('Brice-BoldSemiExpanded.woff2') format('woff2'),
+        url('Brice-BoldSemiExpanded.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Extra Light Condensed';
+    src: url('Brice-ExtraLightCondensed.woff2') format('woff2'),
+        url('Brice-ExtraLightCondensed.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Expanded';
+    src: url('Brice-BoldExpanded.woff2') format('woff2'),
+        url('Brice-BoldExpanded.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice';
+    src: url('Brice-Bold.woff2') format('woff2'),
+        url('Brice-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Extra Light SemiExpanded';
+    src: url('Brice-ExtraLightSemiExpanded.woff2') format('woff2'),
+        url('Brice-ExtraLightSemiExpanded.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Light Condensed';
+    src: url('Brice-LightCondensed.woff2') format('woff2'),
+        url('Brice-LightCondensed.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Extra';
+    src: url('Brice-ExtraLight.woff2') format('woff2'),
+        url('Brice-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Extra Light SemiCondensed';
+    src: url('Brice-ExtraLightSemiCondensed.woff2') format('woff2'),
+        url('Brice-ExtraLightSemiCondensed.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Extra Light Expanded';
+    src: url('Brice-ExtraLightExpanded.woff2') format('woff2'),
+        url('Brice-ExtraLightExpanded.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Light SemiCondensed';
+    src: url('Brice-LightSemiCondensed.woff2') format('woff2'),
+        url('Brice-LightSemiCondensed.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Condensed';
+    src: url('Brice-RegularCondensed.woff2') format('woff2'),
+        url('Brice-RegularCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Light Expanded';
+    src: url('Brice-LightExpanded.woff2') format('woff2'),
+        url('Brice-LightExpanded.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice';
+    src: url('Brice-Light.woff2') format('woff2'),
+        url('Brice-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Light SemiExpanded';
+    src: url('Brice-LightSemiExpanded.woff2') format('woff2'),
+        url('Brice-LightSemiExpanded.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice';
+    src: url('Brice-Regular.woff2') format('woff2'),
+        url('Brice-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice SemiBold Condensed';
+    src: url('Brice-SemiBoldCondensed.woff2') format('woff2'),
+        url('Brice-SemiBoldCondensed.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice SemiCondensed';
+    src: url('Brice-RegularSemiCondensed.woff2') format('woff2'),
+        url('Brice-RegularSemiCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice SemiBold Expanded';
+    src: url('Brice-SemiBoldExpanded.woff2') format('woff2'),
+        url('Brice-SemiBoldExpanded.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice SemiBold SemiCondensed';
+    src: url('Brice-SemiBoldSemiCondensed.woff2') format('woff2'),
+        url('Brice-SemiBoldSemiCondensed.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice SemiExpanded';
+    src: url('Brice-RegularSemiExpanded.woff2') format('woff2'),
+        url('Brice-RegularSemiExpanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Expanded';
+    src: url('Brice-RegularExpanded.woff2') format('woff2'),
+        url('Brice-RegularExpanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice SemiBold SemiExpanded';
+    src: url('Brice-SemiBoldSemiExpanded.woff2') format('woff2'),
+        url('Brice-SemiBoldSemiExpanded.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice';
+    src: url('Brice-SemiBold.woff2') format('woff2'),
+        url('Brice-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
