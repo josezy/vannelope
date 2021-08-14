@@ -4,7 +4,7 @@ const Home = () => <>
     // position: "absolute",
     width: "100%",
     height: "800px",
-    backgroundImage: "url(/logo.svg)",
+    backgroundImage: "url(./logo.svg)",
     backgroundSize: "28%",
     backgroundPosition: "center 130px",
     backgroundRepeat: "no-repeat",
