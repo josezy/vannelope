@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/vannelope/static/css/main.f7d30ff0.chunk.css",
+    "main.js": "/vannelope/static/js/main.ad370484.chunk.js",
+    "main.js.map": "/vannelope/static/js/main.ad370484.chunk.js.map",
+    "runtime-main.js": "/vannelope/static/js/runtime-main.b0415220.js",
+    "runtime-main.js.map": "/vannelope/static/js/runtime-main.b0415220.js.map",
+    "static/js/2.10ad89b2.chunk.js": "/vannelope/static/js/2.10ad89b2.chunk.js",
+    "static/js/2.10ad89b2.chunk.js.map": "/vannelope/static/js/2.10ad89b2.chunk.js.map",
+    "static/js/3.fae895ce.chunk.js": "/vannelope/static/js/3.fae895ce.chunk.js",
+    "static/js/3.fae895ce.chunk.js.map": "/vannelope/static/js/3.fae895ce.chunk.js.map",
+    "index.html": "/vannelope/index.html",
+    "static/css/main.f7d30ff0.chunk.css.map": "/vannelope/static/css/main.f7d30ff0.chunk.css.map",
+    "static/js/2.10ad89b2.chunk.js.LICENSE.txt": "/vannelope/static/js/2.10ad89b2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/vannelope/static/media/Brice-SemiBoldSemiExpanded.d75c643b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0415220.js",
+    "static/js/2.10ad89b2.chunk.js",
+    "static/css/main.f7d30ff0.chunk.css",
+    "static/js/main.ad370484.chunk.js"
+  ]
+}
