@@ -4,8 +4,17 @@
 }
 body {
   background-color: #FF836C;
+}
+.body-sub-block {
   max-width: 1100px;
   margin: auto;
+}
+.body-block {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  background-position: 'center 130px';
 }
 .my-col {
   display: flex;
@@ -60,5 +69,37 @@ body {
 .ux-ui-text span {
   font-family: 'Brice Condensed';
   font-weight: bold;
+}
+
+
+/* CASES */
+.cases {
+  font-family: 'Brice Extra Light';
+  font-size: 1.125rem;
+  font-weight: lighter;
+  line-height: 23px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.cases-title {
+  font-family: 'Brice Light SemiExpanded';
+  font-weight: 200;
+  font-size: 2.125rem;
+  line-height: 34px;
+  margin-left: 5px;
+  line-height: 42px;
+  margin-bottom: 7px;
+}
+.coming-soon-copy {
+  font-family: 'Brice Light Condensed';
+  font-size: 1.75rem;
+  line-height: 34px;
+}
+.cases-description {
+  font-family: 'Brice Light Condensed';
+  font-size: 1.75rem;
+  line-height: 34px;
+  margin-bottom: 40px;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=App.css.map */
