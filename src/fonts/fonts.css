@@ -29,6 +29,15 @@
     font-family: 'Brice Black SemiExpanded';
     src: url('Brice-BlackSemiExpanded.woff2') format('woff2'),
         url('Brice-BlackSemiExpanded.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brice Black';
+    src: url('Brice-BlackSemiExpanded.woff2') format('woff2'),
+        url('Brice-BlackSemiExpanded.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -47,7 +56,7 @@
     font-family: 'Brice SemiCondensed';
     src: url('Brice-BoldSemiCondensed.woff2') format('woff2'),
         url('Brice-BoldSemiCondensed.woff') format('woff');
-    font-weight: bold;
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
@@ -93,6 +102,14 @@
     src: url('Brice-Bold.woff2') format('woff2'),
         url('Brice-Bold.woff') format('woff');
     font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Brice Extra Light';
+    src: url('Brice-ExtraLight.woff2') format('woff2'),
+        url('Brice-ExtraLight.woff') format('woff');
+    font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
