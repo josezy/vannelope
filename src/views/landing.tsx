@@ -121,7 +121,38 @@ const NoWork = () => <>
     </div>
 </>
 
-const Contact = () => <></>
+const Contact = () => <>
+<div className="body-block" style={{
+    
+    
+    
+    backgroundColor:"#141414",
+  }}>
+    <div className="body-sub-block" style={{
+      // position: "absolute",
+      
+      width: "1100px",
+      height: "800px",
+      margin: "auto",
+    }}>
+      
+      
+      <div className="contact-title">Say hello</div>
+      <div
+        style={{
+          display: 'flex',
+        }}
+      >
+        <div className="contact-container">
+          <div className="contact-text">
+            Wanna be in touch? find me on <span>Dribble, instagram </span> or Just  <span>Reach me out.</span> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</>
 
 
 export const Landing = () => {
