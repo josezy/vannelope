@@ -1,11 +1,7 @@
 
 export const Navbar = () => {
   return (
-    <div style={{
-      display: "flex",
-      justifyContent: "flex-end",
-      marginTop: 30,
-    }}>
+    <div className="navbar">
       {/* TODO: use HashLink */}
       <div className="navbar-link">Home</div>
       <div className="navbar-link">Cases</div>

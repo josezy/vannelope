@@ -1,27 +1,42 @@
 @import "./fonts/fonts.css";
 
+@max-width-screen: 1440px;
+
 * {
   color: white;
 }
 
 body {
-  background-color: #FF836C;
-  max-width: 1100px;
-  margin: auto;
+  margin: 0;
 }
 
-.my-col {
+.body-block {
+  height: 800px;
+  padding: 0 calc((100% - 1024px) / 2);
+  overflow: hidden;
+  left: 0;
+}
+
+.my-col  {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
 
-.navbar-link {
-  font-family: 'Brice Light Condensed';
-  font-weight: 300;
-  width: 120px;
-  text-align: center;
-  font-size: 2rem;
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  position: fixed;
+  width: 80vw;
+
+  .navbar-link {
+    font-family: 'Brice Light Condensed';
+    font-weight: 300;
+    width: 120px;
+    text-align: center;
+    font-size: 2rem;
+  }
 }
 
 .vanessa-lopez {
@@ -69,4 +84,122 @@ body {
     font-family: 'Brice Condensed';
     font-weight: bold;
   }
+}
+// CASES
+.cases {  
+  font-family: 'Brice Extra Light';
+  font-size: 1.125rem;
+  font-weight: lighter;
+  line-height: 23px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.cases-title {  
+  font-family: 'Brice Light SemiExpanded';
+  font-weight: 200;
+  font-size: 2.125rem;
+  line-height: 34px;
+  margin-left: 5px;
+  line-height: 42px;
+  margin-bottom: 7px;
+}
+.coming-soon-copy {
+  font-family: 'Brice Light Condensed';
+  font-size: 1.75rem;
+  line-height: 34px;
+}
+.cases-description {  
+  font-family: 'Brice Light Condensed';
+  font-size: 1.75rem;
+  line-height: 34px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+.cases-img {
+  margin-left:200px;            
+  display: flex;
+  justify-content: center;
+}
+
+// NO WORK
+
+.no-work {  
+  font-family: 'Brice Extra Light';
+  font-size: 41px;
+  font-weight: normal;
+  line-height: 49px;
+  margin-top: 70px;
+  margin-bottom: 5px;
+}
+
+.no-work-subtitle {  
+  font-family: 'Brice Extra Light';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.my-col-no-work { 
+  width: 50%;
+  height: 300px ;
+  position: relative;
+}
+
+.no-work-first-word{
+  font-family: 'Brice Light SemiExpanded';
+  font-size: 47px;
+  font-weight: lighter;
+
+}
+.no-work-second-word-left{
+  font-family: 'Brice Black';
+  font-size: 43px;
+  font-weight: normal;
+  margin-left:135px;
+  margin-top:50px;
+
+}
+.no-work-second-word-right{
+  font-family: 'Brice Black';
+  font-size: 43px;
+  font-weight: normal;
+  margin-left:155px;
+  margin-top:65px;
+
+}
+
+.contact-title {  
+  font-family: 'Brice Extra Light';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+  margin-top: 50px;
+  margin-left:10px;
+}
+
+.contact-text {
+  font-family: 'Brice Light SemiExpanded';
+  font-size: 51px;
+  line-height: 61px;
+  margin-left: 10px;
+  span {
+    font-family: 'Brice Black';
+    font-weight: 900;
+  }
+}
+.contact-container{ 
+ 
+  margin-top:50px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
