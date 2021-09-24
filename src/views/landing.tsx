@@ -126,7 +126,7 @@ const Contact = () => <>
     >
       <div className="contact-container">
         <div className="contact-text">
-          Wanna be in touch? find me on <span>Dribble, instagram </span> or Just  <span>Reach me out.</span>
+          Wanna be in touch? find me on <span>Dribbble, instagram </span> or Just  <span>Reach me out.</span>
         </div>
       </div>
     </div>
