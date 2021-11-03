@@ -130,7 +130,7 @@ const Contact = () => <>
       display: 'flex',
     }}
   >
-    <div className="contact-container">
+    <div className="contact-container fadein">
       <div className="contact-text">
         Wanna be in touch? find me on <span>Dribbble, instagram </span> or Just  <span>Reach me out.</span>
       </div>
