@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vannelope/static/css/main.766c61b3.chunk.css",
-    "main.js": "/vannelope/static/js/main.6bde4303.chunk.js",
-    "main.js.map": "/vannelope/static/js/main.6bde4303.chunk.js.map",
+    "main.js": "/vannelope/static/js/main.dbf2be54.chunk.js",
+    "main.js.map": "/vannelope/static/js/main.dbf2be54.chunk.js.map",
     "runtime-main.js": "/vannelope/static/js/runtime-main.b0415220.js",
     "runtime-main.js.map": "/vannelope/static/js/runtime-main.b0415220.js.map",
     "static/js/2.10ad89b2.chunk.js": "/vannelope/static/js/2.10ad89b2.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b0415220.js",
     "static/js/2.10ad89b2.chunk.js",
     "static/css/main.766c61b3.chunk.css",
-    "static/js/main.6bde4303.chunk.js"
+    "static/js/main.dbf2be54.chunk.js"
   ]
 }
