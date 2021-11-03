@@ -5,10 +5,9 @@ const Home = () => {
   const [leftDiv, setLeftDiv] = useState("my-col left_animation")
 
   useEffect(() => {
-    // Actualiza el título del documento usando la API del navegador
-    setRighDiv("my-col right_animation show")
-    setLeftDiv("my-col left_animation show")
-  });
+    setRighDiv("my-col right_animation show");
+    setLeftDiv("my-col left_animation show");
+  },[]);
 
   return <div> 
     <div className="vanessa-lopez">Vanessa López</div>
@@ -33,8 +32,15 @@ const Home = () => {
   </div>
 }
 
-const Cases = () => <>
+const Cases = () => {
 
+  const [stackDiv, setStackDiv] = useState("cases-title stack-animation down")
+
+  useEffect(() => {
+    setStackDiv("cases-title stack-animation up")
+  },[]);
+
+  return <div> 
   <div className="cases">Cases</div>
   <div
     style={{
@@ -43,21 +49,20 @@ const Cases = () => <>
   >
     <div className="my-col">
 
-      <div className="cases-title">Homelister app
+      <div className={stackDiv}>Homelister app
         <div style={{ display: "inline" }} className="coming-soon-copy">  Comming Soon</div>
       </div>
-
       <div className="cases-description">
         The new way to sell and buy properties
       </div>
 
-      <div className="cases-title">Notarial platform</div>
+      <div className={stackDiv}>Notarial platform</div>
       <div className="cases-description">  First virtual notary on Latin America</div>
 
-      <div className="cases-title">Travel Industry Products</div>
+      <div className={stackDiv}>Travel Industry Products</div>
       <div className="cases-description"> Flights, hotels, Cars and you won't believe it, Disney! </div>
 
-      <div className="cases-title">Medellín subway  </div>
+      <div className={stackDiv}>Medellín subway  </div>
       <div className="cases-description">  Training virtualization</div>
     </div>
     <div className="cases-img">
@@ -65,7 +70,8 @@ const Cases = () => <>
     </div>
   </div>
 
-</>
+  </div>
+}
 
 
 const NoWork = () => <>
