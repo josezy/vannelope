@@ -74,8 +74,17 @@ const Cases = () => {
 }
 
 
-const NoWork = () => <>
- 
+const NoWork = () => {
+
+  const [rightDiv, setRighDiv] = useState("my-col-no-work right-bounce-in")
+  const [leftDiv, setLeftDiv] = useState("my-col-no-work left-bounce-in")
+
+  useEffect(() => {
+    setRighDiv("my-col-no-work right-bounce-in show");
+    setLeftDiv("my-col-no-work left-bounce-in show");
+  },[]);
+
+  return <div> 
   <div className="no-work">No work</div>
   <div className="no-work-subtitle">But still my passion</div>
   <div
@@ -83,7 +92,7 @@ const NoWork = () => <>
       display: 'flex',
     }}
   >
-    <div className="my-col-no-work">
+    <div className={leftDiv}>
       <div className="center">
         <div className="no-work-first-word">
           Photo
@@ -95,7 +104,7 @@ const NoWork = () => <>
         </div>
       </div>
     </div>
-    <div className="my-col-no-work">
+    <div className={rightDiv}>
       <div className="center">
         <div className="no-work-first-word">
           Brand
@@ -109,7 +118,10 @@ const NoWork = () => <>
       </div>
     </div>
   </div>
-</>
+
+  </div>
+}
+
 
 const Contact = () => <>
   <div className="contact-title">Say hello</div>
