@@ -1,9 +1,9 @@
 
-import './App.sass'
-import './styles/NoWork.sass'
-import './styles/Cases.sass'
-import './styles/Intro.sass'
-import './styles/Contact.sass'
+import './App.scss'
+import './styles/NoWork.scss'
+import './styles/Cases.scss'
+import './styles/Intro.scss'
+import './styles/Contact.scss'
 
 import { Routes } from "./routes"
 
