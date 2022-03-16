@@ -1,5 +1,9 @@
 
-import './App.css'
+import './App.scss'
+import './styles/NoWork.scss'
+import './styles/Cases.scss'
+import './styles/Intro.scss'
+import './styles/Contact.scss'
 
 import { Routes } from "./routes"
 

@@ -1,0 +1,44 @@
+//CONCAcT
+
+.contact-title {  
+  font-family: 'Brice Extra Light';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+  margin-top: 50px;
+  margin-left:10px;
+}
+
+.contact-text {
+  font-family: 'Brice Light SemiExpanded';
+  font-size: 51px;
+  line-height: 61px;
+  margin-left: 10px;
+  span {
+    font-family: 'Brice Black';
+    font-weight: 900;
+  }
+}
+.contact-container{ 
+ 
+  margin-top:50px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.contact-container.fadeout{
+  opacity:0;  
+}
+.contact-container.fadein{
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}

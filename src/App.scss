@@ -1,0 +1,36 @@
+@import "./fonts/fonts.css";
+
+@max-width-screen: 1440px;
+
+* {
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.body-block {
+  height: 800px;
+  padding: 0 calc((100% - 1024px) / 2);
+  overflow: hidden;
+  left: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  position: fixed;
+  width: 80vw;
+
+  .navbar-link {
+    font-family: 'Brice Light Condensed';
+    font-weight: 300;
+    width: 120px;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+

@@ -1,0 +1,54 @@
+// CASES
+.cases {  
+  font-family: 'Brice Extra Light';
+  font-size: 1.125rem;
+  font-weight: lighter;
+  line-height: 23px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.cases-title {  
+  font-family: 'Brice Light SemiExpanded';
+  font-weight: 200;
+  font-size: 2.125rem;
+  line-height: 34px;
+  margin-left: 5px;
+  line-height: 42px;
+  margin-bottom: 7px;
+}
+.coming-soon-copy {
+  font-family: 'Brice Light Condensed';
+  font-size: 1.75rem;
+  line-height: 34px;
+}
+.cases-description {  
+  font-family: 'Brice Light Condensed';
+  font-size: 1.75rem;
+  line-height: 34px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+.cases-img {
+  margin-left:200px;            
+  display: flex;
+  justify-content: center;
+}
+
+.cases-title.stack-animation {  
+  font-family: 'Brice Light SemiExpanded';
+  font-weight: 200;
+  font-size: 2.125rem;
+  line-height: 34px;
+  margin-left: 5px;
+  line-height: 42px;
+  margin-bottom: 7px;
+  transition: margin-top 1s;
+}
+
+.cases-title.stack-animation.down {  
+  margin-top:1200px;
+}
+.cases-title.stack-animation.up {  
+  margin-top: 0px;
+}
